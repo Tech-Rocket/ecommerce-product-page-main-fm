@@ -1,5 +1,8 @@
 import Header from "./components/ui/header/header";
 import HeroSection from "./components/hero-section/hero-section";
+import Counter from "./components/counter";
+import { Button } from "./components/ui/button";
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 export default function App() {
   return (
@@ -33,6 +36,14 @@ export default function App() {
             <p className="text-[#6D717A] text-sm font-semibold line-through">
               $250.00
             </p>
+          </div>
+
+          <div className="space-y-3">
+            <Counter />
+            <Button className="bg-[#FF7D1A] shadow-[#FFEDE0] shadow-md rounded h-12 w-full text-white font-semibold">
+              <MdOutlineShoppingCart className="text-lg" />
+              Add to chart
+            </Button>
           </div>
         </div>
       </div>
