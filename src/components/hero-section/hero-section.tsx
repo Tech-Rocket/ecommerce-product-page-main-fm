@@ -11,11 +11,10 @@ export default function HeroSection() {
       <style>{`
         .swiper-button-next,
         .swiper-button-prev {
-          color: black !important;
-
+          color: black !import<div className="max-w">ant;
             width: 40px !important;
             height: 40px !important;
-          background-color: black !important;
+          background-color: white !important;
           border-radius: 100% !important;
         }
 
@@ -23,9 +22,9 @@ export default function HeroSection() {
         /* shrink the arrow inside */
         .swiper-button-next::after,
         .swiper-button-prev::after {
-            font-size: 18px !important;
+            font-size: 16px !important;
             font-weight: bold !important;
-            color: white !important; 
+            color: black !important; 
         }
       `}</style>
       <Swiper
