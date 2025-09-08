@@ -34,7 +34,7 @@ export default function HeroSection() {
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
-        className="w-full h-64"
+        className="w-full h-[18rem]"
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >

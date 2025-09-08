@@ -4,7 +4,7 @@ import AvatarImg from "/images/image-avatar.png";
 
 export default function Header() {
   return (
-    <header className="p-5 flex items-center justify-between border-none">
+    <header className="p-5 h-[4.7rem] flex items-center justify-between border-none">
       <div className="flex items-center  gap-x-3">
         <GiHamburgerMenu className=" text-gray-600 text-2xl leading-0" />
         <h3 className="text-slate-800 text-3xl font-bold leading-0 m-0">
